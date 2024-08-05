@@ -1,3 +1,4 @@
+using EFStackOverflow;
 using EFStackOverflow.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,11 +21,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-var scope = app.Services.CreateScope();
-var dbContext = scope.ServiceProvider.GetService<EFStackOverflowContext>();
+using var scope = app.Services.CreateScope();
+var dbContext = scope.ServiceProvider.GetRequiredService<EFStackOverflowContext>();
 if (dbContext.Database.GetPendingMigrations().Any())
 {
     dbContext.Database.Migrate();
 }
+
+DataSeeder.Seed(dbContext);
 
 app.Run();
