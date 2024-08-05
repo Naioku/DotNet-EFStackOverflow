@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yZwCfhT9Eiqux/81z1FwQlzi8JYA+Cf9cuASGDLMff04KPcL/g/JQB98+cBvmKdQh+pFQo8bxaKn1xxh15qbJw==",
+  "dgSpecHash": "sYXdhGpUUn6OhmOHdIuQkXBu5MmSFQgob2+LlEPgjN4eNUifOmxjP22CYewMKrxWSgZj9BllcAsk4gEujjEWWQ==",
   "success": true,
   "projectFilePath": "D:\\Programowanie\\C#\\DotNet-EFStackOverflow\\EFStackOverflow\\EFStackOverflow\\EFStackOverflow.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\budus\\.nuget\\packages\\bogus\\35.6.0\\bogus.35.6.0.nupkg.sha512",
     "C:\\Users\\budus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\budus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\budus\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

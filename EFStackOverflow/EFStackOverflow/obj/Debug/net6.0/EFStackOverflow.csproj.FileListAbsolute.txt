@@ -61,3 +61,4 @@ D:\Programowanie\C#\DotNet-EFStackOverflow\EFStackOverflow\EFStackOverflow\obj\D
 D:\Programowanie\C#\DotNet-EFStackOverflow\EFStackOverflow\EFStackOverflow\obj\Debug\net6.0\ref\EFStackOverflow.dll
 D:\Programowanie\C#\DotNet-EFStackOverflow\EFStackOverflow\EFStackOverflow\bin\Debug\net6.0\Humanizer.dll
 D:\Programowanie\C#\DotNet-EFStackOverflow\EFStackOverflow\EFStackOverflow\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programowanie\C#\DotNet-EFStackOverflow\EFStackOverflow\EFStackOverflow\bin\Debug\net6.0\Bogus.dll
