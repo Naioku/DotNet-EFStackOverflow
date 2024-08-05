@@ -12,6 +12,8 @@ builder.Services.AddDbContext<EFStackOverflowContext>(
     option => option
         .UseSqlServer(builder.Configuration.GetConnectionString("MyBoardsConnectionString")));
 
+builder.Services.AddTransient<IDataSeeder, BogusSeeder>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +30,7 @@ if (dbContext.Database.GetPendingMigrations().Any())
     dbContext.Database.Migrate();
 }
 
-DataSeeder.Seed(dbContext);
+var dataSeeder = scope.ServiceProvider.GetRequiredService<IDataSeeder>();
+dataSeeder.Seed(dbContext);
 
 app.Run();
